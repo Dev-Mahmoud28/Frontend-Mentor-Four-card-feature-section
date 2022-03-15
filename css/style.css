@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
+}
+body{
+  font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+.header{
+  width: fit-content;
+  text-align: center;
+  margin: 30px auto;
+}
+.header h1{
+  font-size: 2.2em;
+  font-weight: 200;
+}
+.header h2{
+  font-size: 2.2em;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  margin: 8px 0 0;
+}
+.header p{
+  color: hsl(229, 6%, 66%);
+  width: 60%;
+  margin: 10px auto;
+}
+.container{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container .box{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.container .box h3{  
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+.container .box p{
+  margin-top: 20px;
+  color: hsl(229, 6%, 66%);
+}
+.container .box img{
+  width: 50px;
+  margin-top: 30px;
+  align-self: flex-end;
+}
+.container .box.supervisor{
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+.container .box.Team-Builder{
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+.container .box.Karma{
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+.container .box.Calculator{
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+.container .col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
